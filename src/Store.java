@@ -156,9 +156,10 @@ public class Store {
         }
     }
     public void showAllInfo(){
-        System.out.println(cisItems);
+        for( int i = 0; i < cisItems.size(); i++){
+            System.out.println();cisItems.toString();
+        }
     }
-    public void addItems(CISItem cisItem){
-        cisItems.add(cisItem);
-    }
+
+
 }

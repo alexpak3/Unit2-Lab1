@@ -43,5 +43,13 @@ public class CISItem {
         return cost;
     }
 
-
+    @Override
+    public String toString() {
+        return "CISItem{" +
+                "name='" + name + '\'' +
+                ", location='" + location + '\'' +
+                ", cost=" + cost +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }

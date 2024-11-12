@@ -33,4 +33,13 @@ public class Book extends ReadingItem{
     public String getEdition() {
         return edition;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" + super.toString() +
+                ", isbn='" + isbn + '\'' +
+                ", edition='" + edition + '\'' +
+                ", title='" + title + '\'' +
+                '}';
+    }
 }

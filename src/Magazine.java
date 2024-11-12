@@ -21,4 +21,12 @@ public class Magazine extends ReadingItem{
     public String getCoverStoryTitle() {
         return coverStoryTitle;
     }
+
+    @Override
+    public String toString() {
+        return "Magazine{" + super.toString() +
+                ", coverStoryTitle='" + coverStoryTitle + '\'' +
+                ", printDate='" + printDate + '\'' +
+                '}';
+    }
 }

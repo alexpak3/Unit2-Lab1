@@ -36,4 +36,13 @@ public class ElectronicItem extends CISItem{
         return storageCapacity;
     }
 
+    @Override
+    public String toString() {
+        return "ElectronicItem{" +super.toString() +
+                ", storageCapacity=" + storageCapacity +
+                ", model='" + model + '\'' +
+                ", maker='" + maker + '\'' +
+                ", operatingSystem='" + operatingSystem + '\'' +
+                '}';
+    }
 }

@@ -17,4 +17,12 @@ public class Phone extends ElectronicItem{
     public int getScreenSize() {
         return screenSize;
     }
+
+    @Override
+    public String toString() {
+        return "Phone{" +super.toString() +
+                ", networkType='" + networkType + '\'' +
+                ", screenSize=" + screenSize +
+                '}';
+    }
 }

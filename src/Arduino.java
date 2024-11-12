@@ -8,6 +8,13 @@ public class Arduino extends ElectronicItem{
     public String getVersion() {
         return version;
     }
+
+    @Override
+    public String toString() {
+        return "Arduino{" +super.toString() +
+                ", version='" + version + '\'' +
+                '}';
+    }
 }
 
 

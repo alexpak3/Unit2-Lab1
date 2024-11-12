@@ -33,4 +33,14 @@ public class ReadingItem extends CISItem{
     public int getWordCount() {
         return wordCount;
     }
+
+    @Override
+    public String toString() {
+
+        return "ReadingItem{" +super.toString() +
+                ", wordCount=" + wordCount +
+                ", datePublished='" + datePublished + '\'' +
+                ", author='" + author + '\'' +
+                '}';
+    }
 }
